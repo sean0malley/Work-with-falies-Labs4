@@ -21,8 +21,6 @@ struct TimePoint
 };
 
 
-//////////   ФУНКЦИИ ОБРАБОТКИ ДАННЫХ   //////////
-
 // Функция загрузки данных из файлов в вектор структур TimePoint
 void LoadData(vector<TimePoint>& Data)
 {
@@ -153,8 +151,6 @@ void Selection(vector<TimePoint>& Data, double t)
 	F.close();
 }
 
-
-//////////   ОСНОВНАЯ ПРОГРАММА   //////////
 int main()
 {
 	setlocale(LC_ALL, "");    // Локализация консоли
